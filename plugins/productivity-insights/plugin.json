@@ -1,0 +1,9 @@
+{
+  "id": "productivity-insights",
+  "name": "Productivity Insights",
+  "version": "1.0.0",
+  "description": "Track session metrics in real-time",
+  "permissions": ["messages", "palette", "events"],
+  "tags": ["analytics", "free"],
+  "entry": "index.js"
+}

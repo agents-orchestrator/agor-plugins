@@ -1,0 +1,9 @@
+{
+  "id": "diff-guardian",
+  "name": "Diff Guardian",
+  "version": "1.0.0",
+  "description": "Monitor agent file writes for suspicious patterns",
+  "permissions": ["messages", "events", "notifications"],
+  "tags": ["safety", "code-quality", "free"],
+  "entry": "index.js"
+}

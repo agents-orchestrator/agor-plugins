@@ -1,0 +1,9 @@
+{
+  "id": "test-coverage-watcher",
+  "name": "Test Coverage Watcher",
+  "version": "1.0.0",
+  "description": "Monitor test results from agent sessions",
+  "permissions": ["messages", "events", "notifications"],
+  "tags": ["testing", "quality", "paid"],
+  "entry": "index.js"
+}

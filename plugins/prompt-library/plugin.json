@@ -1,0 +1,9 @@
+{
+  "id": "prompt-library",
+  "name": "Prompt Library",
+  "version": "1.0.0",
+  "description": "Save, search, and reuse prompt templates",
+  "permissions": ["messages", "tasks", "palette", "notifications"],
+  "tags": ["productivity", "prompts", "paid"],
+  "entry": "index.js"
+}

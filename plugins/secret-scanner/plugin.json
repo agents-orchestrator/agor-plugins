@@ -1,0 +1,9 @@
+{
+  "id": "secret-scanner",
+  "name": "Secret Scanner",
+  "version": "1.0.0",
+  "description": "Real-time secret detection in agent messages",
+  "permissions": ["messages", "events", "notifications"],
+  "tags": ["security", "free"],
+  "entry": "index.js"
+}

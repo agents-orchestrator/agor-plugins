@@ -1,0 +1,9 @@
+{
+  "id": "cost-attribution",
+  "name": "Cost Attribution",
+  "version": "1.0.0",
+  "description": "Tag sessions with tickets and track costs",
+  "permissions": ["messages", "tasks", "palette", "events", "notifications"],
+  "tags": ["analytics", "cost", "paid"],
+  "entry": "index.js"
+}

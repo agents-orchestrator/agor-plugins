@@ -1,0 +1,9 @@
+{
+  "id": "agent-playbooks",
+  "name": "Agent Playbooks",
+  "version": "1.0.0",
+  "description": "Save and share agent configuration templates",
+  "permissions": ["tasks", "palette", "notifications"],
+  "tags": ["workflow", "configuration", "paid"],
+  "entry": "index.js"
+}

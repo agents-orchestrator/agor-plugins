@@ -1,0 +1,9 @@
+{
+  "id": "code-review-handoff",
+  "name": "Code Review Handoff",
+  "version": "1.0.0",
+  "description": "Create structured review tasks from agent sessions",
+  "permissions": ["messages", "tasks", "palette", "notifications"],
+  "tags": ["workflow", "review", "free"],
+  "entry": "index.js"
+}

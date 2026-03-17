@@ -1,0 +1,9 @@
+{
+  "id": "focus-timer",
+  "name": "Focus Timer",
+  "version": "1.0.0",
+  "description": "Pomodoro-style work/break cycles with cost tracking",
+  "permissions": ["messages", "palette", "events", "notifications"],
+  "tags": ["productivity", "timer", "paid"],
+  "entry": "index.js"
+}

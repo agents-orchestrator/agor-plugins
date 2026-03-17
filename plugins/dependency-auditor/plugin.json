@@ -1,0 +1,9 @@
+{
+  "id": "dependency-auditor",
+  "name": "Dependency Auditor",
+  "version": "1.0.0",
+  "description": "Watch for new dependency additions",
+  "permissions": ["messages", "events", "notifications"],
+  "tags": ["safety", "dependencies", "free"],
+  "entry": "index.js"
+}

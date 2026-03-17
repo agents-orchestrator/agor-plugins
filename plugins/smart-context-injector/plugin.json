@@ -1,0 +1,9 @@
+{
+  "id": "smart-context-injector",
+  "name": "Smart Context Injector",
+  "version": "1.0.0",
+  "description": "Detect context drift and suggest refresh",
+  "permissions": ["messages", "events", "notifications"],
+  "tags": ["productivity", "context", "free"],
+  "entry": "index.js"
+}

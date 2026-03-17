@@ -1,0 +1,9 @@
+{
+  "id": "environment-snapshotter",
+  "name": "Environment Snapshotter",
+  "version": "1.0.0",
+  "description": "Capture environment context at session start",
+  "permissions": ["messages", "palette", "notifications"],
+  "tags": ["debugging", "reproducibility", "free"],
+  "entry": "index.js"
+}

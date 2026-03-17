@@ -1,0 +1,9 @@
+{
+  "id": "permission-auditor",
+  "name": "Permission Auditor",
+  "version": "1.0.0",
+  "description": "Track all tool operations per agent session",
+  "permissions": ["messages", "palette"],
+  "tags": ["security", "observability", "free"],
+  "entry": "index.js"
+}
