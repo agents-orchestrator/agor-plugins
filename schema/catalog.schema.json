@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agor Plugin Catalog",
+  "type": "object",
+  "required": ["version", "plugins"],
+  "properties": {
+    "version": { "type": "integer", "description": "Catalog schema version" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "plugins": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "version", "author", "description", "download_url", "checksum_sha256", "permissions"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Unique plugin identifier (kebab-case)" },
+          "name": { "type": "string", "description": "Human-readable name" },
+          "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+          "author": { "type": "string" },
+          "description": { "type": "string", "maxLength": 300 },
+          "license": { "type": "string" },
+          "homepage": { "type": "string", "format": "uri" },
+          "repository": { "type": "string", "format": "uri" },
+          "download_url": { "type": "string", "format": "uri" },
+          "checksum_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$|^$" },
+          "size_bytes": { "type": "integer", "minimum": 0 },
+          "permissions": {
+            "type": "array",
+            "items": { "type": "string", "enum": ["palette", "messages", "tasks", "events", "notifications"] }
+          },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "min_agor_version": { "type": "string" },
+          "downloads": { "type": "integer", "minimum": 0 },
+          "rating": { "type": "number", "minimum": 0, "maximum": 5 },
+          "created_at": { "type": "string", "format": "date-time" },
+          "updated_at": { "type": "string", "format": "date-time" }
+        }
+      }
+    }
+  }
+}

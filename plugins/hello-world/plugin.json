@@ -1,0 +1,10 @@
+{
+  "id": "hello-world",
+  "name": "Hello World",
+  "version": "1.0.0",
+  "author": "Agents Orchestrator",
+  "description": "Example plugin demonstrating the agor plugin API.",
+  "license": "MIT",
+  "permissions": ["palette"],
+  "main": "index.js"
+}
